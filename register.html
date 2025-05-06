@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - Computer Force</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Computer Force</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="register.html">Register</a>
+    </nav>
+    <main>
+        <h1>Registration Form</h1>
+        <p>Please complete the following form to register for an account on our website.</p>
+        <form method="post">
+            <label>Name: <input type="text" name="name"></label><br>
+            <label>Notes: <textarea name="notes"></textarea></label><br>
+            <label>Username*: <input type="text" name="username" required></label><br>
+            <label>Email Address*: <input type="email" name="email" required></label><br>
+            <label>Password*: <input type="password" name="password" required></label><br>
+            <label>Confirm Password*: <input type="password" name="confirm_password" required></label><br>
+            <label>First Name*: <input type="text" name="first_name" required></label><br>
+            <label>Surname*: <input type="text" name="surname" required></label><br>
+            <label>Gender*: 
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </label><br>
+            <label>Date of Birth: <input type="date" name="dob"></label><br>
+            <label>Address*: <input type="text" name="address" required></label><br>
+            <label>Suburb*: <input type="text" name="suburb" required></label><br>
+            <label>Postcode*: <input type="text" name="postcode" required></label><br>
+            <label>State*: 
+                <select name="state" required>
+                    <option>ACT</option><option>NSW</option><option>NT</option>
+                    <option>QLD</option><option>SA</option><option>TAS</option>
+                    <option>VIC</option><option>WA</option>
+                </select>
+            </label><br>
+            <label>Phone Number: <input type="tel" name="phone"></label><br>
+            <button type="reset">Clear</button>
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gineth Alejandra Moreno Florez</p>
+    </footer>
+</body>
+</html>
